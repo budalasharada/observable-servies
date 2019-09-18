@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="left-section ml-5 float-left">
+        <h1>sharada-bigrophy</h1>
+        <h2 *ngFor="let i of result">my name is:{{i.name}}</h2>
+        <h3 *ngFor="let i of result">my gender is:{{i.gender}}</h3>
+        <h4 *ngFor="let i of result">my qualification is:{{i.qualifications}}</h4>
+    </div>
+    <div class="right-section float-right mr-5" >
+         <img class="round-circle" src="{{myimages}}" alt="" height="300px" width="250px">
+         
+    </div>
+
+</div>
